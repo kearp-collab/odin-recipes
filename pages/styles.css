@@ -1,10 +1,58 @@
 /* styles.css */
 
-div {
-  color: rgb(3, 19, 114);
-  background-color: rgb(255, 255, 255);
+.odd {
+  background-color: rgb(255, 167, 167);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
 }
 
-p {
-  color: rgb(0, 158, 84);
+.adjust-font-size {
+  font-size: 24px;
+}
+
+.inverted {
+  color: white;
+  background-color: black;
+}
+
+.fancy {
+  background-color: yellow;
+}
+
+.inverted,
+.fancy {
+  font-size: 28px;
+  font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+#two {
+  background-color: white;
+  color: blue;
+  font-size: 36px;
+  font-weight: unset;
+  text-align: unset;
+}
+
+#four {
+  background-color: lightgreen;
+  color: unset;
+  font-weight: bold;
+  text-align: unset;
+}
+
+.divCustom {
+  background-color: red;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.avatar.proportioned {
+  width: 300px;
+  height: auto;
+}
+
+.avatar.distorted {
+  width: 200px;
+  height: 400px;
 }
